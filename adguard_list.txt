@@ -13,7 +13,7 @@
 |nydus.battle.net^$dnsrewrite=192.168.88.20
 
 # From: epicgames.conf
-|cdn.unrealengine.com^$dnsrewrite=192.168.88.20
+|cdn.unrealengine.com^$dnsrewrite=lancache.internal
 |cdn1.epicgames.com^$dnsrewrite=192.168.88.20
 |cdn1.unrealengine.com^$dnsrewrite=192.168.88.20
 |cdn2.epicgames.com^$dnsrewrite=192.168.88.20
