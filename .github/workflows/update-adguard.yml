@@ -58,7 +58,7 @@ jobs:
             cat "$file" >> ./output/adguardhome/lancache.conf
           done
           
-          cp ./output/adguardhome/lancache.conf ../../../adguard_list.txt
+          cp ./output/adguardhome/lancache.conf ../../adguard_list.txt
       
       - name: Commit adguard_list.txt
         run: |
