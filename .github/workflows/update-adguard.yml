@@ -19,6 +19,29 @@ jobs:
       - name: Clone uklans/cache-domains
         run: git clone https://github.com/uklans/cache-domains.git
 
+      - name: Write config.json
+        working-directory: ./cache-domains/scripts
+        run: |
+          cat > config.json <<EOF
+          {
+              "combined_output": false,
+              "ips": {
+                  "monolithic": ["192.168.88.20"]
+              },
+              "cache_domains": {
+                  "blizzard": "monolithic",
+                  "epicgames": "monolithic",
+                  "nintendo": "monolithic",
+                  "origin": "monolithic",
+                  "riot": "monolithic",
+                  "sony": "monolithic",
+                  "steam": "monolithic",
+                  "uplay": "monolithic",
+                  "wsus": "monolithic"
+              }
+          }
+          EOF
+
       - name: Run generation script
         working-directory: ./cache-domains/scripts
         run: |
