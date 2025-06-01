@@ -28,7 +28,7 @@ jobs:
           {
               "combined_output": false,
               "ips": {
-                  "monolithic": ["192.168.88.20"]
+                  "monolithic": ["lancache.internal"]
               },
               "cache_domains": {
                   "blizzard": "monolithic",
