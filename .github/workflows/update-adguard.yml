@@ -57,15 +57,11 @@ jobs:
           done
           
           cp ./output/adguardhome/lancache.conf ../../../adguard_list.txt
-
-      - name: Commit adguard_list.txt if changed
+      
+      - name: Commit adguard_list.txt
         run: |
-          if ! git diff --quiet adguard_list.txt; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add adguard_list.txt
-            git commit -m "Update adguard_list.txt from daily upstream changes"
-            git push
-          else
-            echo "No changes detected in adguard_list.txt"
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add adguard_list.txt
+          git commit -m "Update adguard_list.txt from daily upstream changes" || echo "No changes to commit"
+          git push
