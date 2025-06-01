@@ -1,1 +1,88 @@
 # Combined lancache config
+
+# From: blizzard.conf
+||cdn.blizzard.com^$dnsrewrite=192.168.88.20
+|blizzard.vo.llnwd.net^$dnsrewrite=192.168.88.20
+|blzddist1-a.akamaihd.net^$dnsrewrite=192.168.88.20
+|blzddist2-a.akamaihd.net^$dnsrewrite=192.168.88.20
+|blzddist3-a.akamaihd.net^$dnsrewrite=192.168.88.20
+|dist.blizzard.com^$dnsrewrite=192.168.88.20
+|dist.blizzard.com.edgesuite.net^$dnsrewrite=192.168.88.20
+|edge.blizzard.top.comcast.net^$dnsrewrite=192.168.88.20
+|level3.blizzard.com^$dnsrewrite=192.168.88.20
+|nydus.battle.net^$dnsrewrite=192.168.88.20
+
+# From: epicgames.conf
+|cdn.unrealengine.com^$dnsrewrite=192.168.88.20
+|cdn1.epicgames.com^$dnsrewrite=192.168.88.20
+|cdn1.unrealengine.com^$dnsrewrite=192.168.88.20
+|cdn2.epicgames.com^$dnsrewrite=192.168.88.20
+|cdn2.unrealengine.com^$dnsrewrite=192.168.88.20
+|cdn3.unrealengine.com^$dnsrewrite=192.168.88.20
+|cloudflare.epicgamescdn.com^$dnsrewrite=192.168.88.20
+|download.epicgames.com^$dnsrewrite=192.168.88.20
+|download2.epicgames.com^$dnsrewrite=192.168.88.20
+|download3.epicgames.com^$dnsrewrite=192.168.88.20
+|download4.epicgames.com^$dnsrewrite=192.168.88.20
+|egdownload.fastly-edge.com^$dnsrewrite=192.168.88.20
+|epicgames-download1.akamaized.net^$dnsrewrite=192.168.88.20
+|fastly-download.epicgames.com^$dnsrewrite=192.168.88.20
+
+# From: nintendo.conf
+||hac.lp1.d4c.nintendo.net^$dnsrewrite=192.168.88.20
+||hac.lp1.eshop.nintendo.net^$dnsrewrite=192.168.88.20
+||wup.eshop.nintendo.net^$dnsrewrite=192.168.88.20
+||wup.shop.nintendo.net^$dnsrewrite=192.168.88.20
+|ccs.cdn.wup.shop.nintendo.net^$dnsrewrite=192.168.88.20
+|ccs.cdn.wup.shop.nintendo.net.edgesuite.net^$dnsrewrite=192.168.88.20
+|ecs-lp1.hac.shop.nintendo.net^$dnsrewrite=192.168.88.20
+|geisha-wup.cdn.nintendo.net^$dnsrewrite=192.168.88.20
+|geisha-wup.cdn.nintendo.net.edgekey.net^$dnsrewrite=192.168.88.20
+|idbe-wup.cdn.nintendo.net^$dnsrewrite=192.168.88.20
+|idbe-wup.cdn.nintendo.net.edgekey.net^$dnsrewrite=192.168.88.20
+|receive-lp1.dg.srv.nintendo.net^$dnsrewrite=192.168.88.20
+
+# From: origin.conf
+|cdn-patch.swtor.com^$dnsrewrite=192.168.88.20
+|lvlt.cdn.ea.com^$dnsrewrite=192.168.88.20
+|origin-a.akamaihd.net^$dnsrewrite=192.168.88.20
+
+# From: riot.conf
+||dyn.riotcdn.net^$dnsrewrite=192.168.88.20
+|l3cdn.riotgames.com^$dnsrewrite=192.168.88.20
+|riotgamespatcher-a.akamaihd.net^$dnsrewrite=192.168.88.20
+|riotgamespatcher-a.akamaihd.net.edgesuite.net^$dnsrewrite=192.168.88.20
+|worldwide.l3cdn.riotgames.com^$dnsrewrite=192.168.88.20
+
+# From: sony.conf
+||gs2-ww-prod.psn.akadns.net^$dnsrewrite=192.168.88.20
+||gs2.sonycoment.loris-e.llnwd.net^$dnsrewrite=192.168.88.20
+||gs2.ww.prod.dl.playstation.net^$dnsrewrite=192.168.88.20
+||gs2.ww.prod.dl.playstation.net.edgesuite.net^$dnsrewrite=192.168.88.20
+|gs-sec.ww.np.dl.playstation.net^$dnsrewrite=192.168.88.20
+|gst.prod.dl.playstation.net^$dnsrewrite=192.168.88.20
+|playstation4.sony.akadns.net^$dnsrewrite=192.168.88.20
+|psnobj.prod.dl.playstation.net^$dnsrewrite=192.168.88.20
+|sgst.prod.dl.playstation.net^$dnsrewrite=192.168.88.20
+|theia.dl.playstation.net^$dnsrewrite=192.168.88.20
+|tmdb.np.dl.playstation.net^$dnsrewrite=192.168.88.20
+|uef.np.dl.playstation.net^$dnsrewrite=192.168.88.20
+|vulcan.dl.playstation.net^$dnsrewrite=192.168.88.20
+
+# From: steam.conf
+|lancache.steamcontent.com^$dnsrewrite=192.168.88.20
+
+# From: uplay.conf
+||cdn.ubi.com^$dnsrewrite=192.168.88.20
+
+# From: windowsupdates.conf
+||dl.delivery.mp.microsoft.com^$dnsrewrite=192.168.88.20
+||do.dsp.mp.microsoft.com^$dnsrewrite=192.168.88.20
+||microsoft.com.edgesuite.net^$dnsrewrite=192.168.88.20
+||update.microsoft.com^$dnsrewrite=192.168.88.20
+||windowsupdate.com^$dnsrewrite=192.168.88.20
+|amupdatedl.microsoft.com^$dnsrewrite=192.168.88.20
+|amupdatedl2.microsoft.com^$dnsrewrite=192.168.88.20
+|amupdatedl3.microsoft.com^$dnsrewrite=192.168.88.20
+|amupdatedl4.microsoft.com^$dnsrewrite=192.168.88.20
+|amupdatedl5.microsoft.com^$dnsrewrite=192.168.88.20
