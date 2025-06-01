@@ -47,7 +47,7 @@ jobs:
         run: |
           chmod +x create-adguardhome.sh
           ./create-adguardhome.sh
-          cp ../../cache-domains/output/adguardhome/lancache.conf ../../../adguard_list.txt
+          cp ../output/adguardhome/lancache.conf ../../../adguard_list.txt
 
       - name: Commit adguard_list.txt if changed
         run: |
