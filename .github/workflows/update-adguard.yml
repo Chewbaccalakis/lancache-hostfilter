@@ -24,7 +24,7 @@ jobs:
         run: |
           cat > config.json <<EOF
           {
-              "combined_output": false,
+              "combined_output": true,
               "ips": {
                   "monolithic": ["192.168.88.20"]
               },
