@@ -22,7 +22,7 @@ jobs:
       - name: Run generation script
         working-directory: ./cache-domains/scripts
         run: |
-          chmod +x generate_adguardhome_configuration.sh
+          chmod +x create-adguardhome.sh
           ./create-adguardhome.sh
           cp ../../cache-domains/output/adguardhome/lancache.conf ../../../adguard_list.txt
 
