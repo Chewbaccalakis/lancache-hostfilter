@@ -47,7 +47,16 @@ jobs:
         run: |
           chmod +x create-adguardhome.sh
           ./create-adguardhome.sh
-          cp ../output/adguardhome/lancache.conf ../../../adguard_list.txt
+          
+          echo "# Combined lancache config" > ./output/adguardhome/lancache.conf
+          for file in ./output/adguardhome/*.conf; do
+            [ "$file" = "./output/adguardhome/lancache.conf" ] && continue
+            echo "" >> ./output/adguardhome/lancache.conf
+            echo "# From: $(basename "$file")" >> ./output/adguardhome/lancache.conf
+            cat "$file" >> ./output/adguardhome/lancache.conf
+          done
+          
+          cp ./output/adguardhome/lancache.conf ../../../adguard_list.txt
 
       - name: Commit adguard_list.txt if changed
         run: |
