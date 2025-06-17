@@ -8,5 +8,5 @@ Raw github links for the lists
 
 ### adguard
 ```
-
+https://raw.githubusercontent.com/Chewbaccalakis/lancache-hostfilter/refs/heads/main/adguard_list.txt
 ```
