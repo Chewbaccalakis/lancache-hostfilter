@@ -2,87 +2,158 @@
 
 # From: blizzard.conf
 ||cdn.blizzard.com^$dnsrewrite=lancache.internal
+||cdn.blizzard.com^$dnstype=AAAA
 |blizzard.vo.llnwd.net^$dnsrewrite=lancache.internal
+|blizzard.vo.llnwd.net^$dnstype=AAAA
 |blzddist1-a.akamaihd.net^$dnsrewrite=lancache.internal
+|blzddist1-a.akamaihd.net^$dnstype=AAAA
 |blzddist2-a.akamaihd.net^$dnsrewrite=lancache.internal
+|blzddist2-a.akamaihd.net^$dnstype=AAAA
 |blzddist3-a.akamaihd.net^$dnsrewrite=lancache.internal
+|blzddist3-a.akamaihd.net^$dnstype=AAAA
 |dist.blizzard.com^$dnsrewrite=lancache.internal
+|dist.blizzard.com^$dnstype=AAAA
 |dist.blizzard.com.edgesuite.net^$dnsrewrite=lancache.internal
+|dist.blizzard.com.edgesuite.net^$dnstype=AAAA
 |edge.blizzard.top.comcast.net^$dnsrewrite=lancache.internal
+|edge.blizzard.top.comcast.net^$dnstype=AAAA
 |level3.blizzard.com^$dnsrewrite=lancache.internal
+|level3.blizzard.com^$dnstype=AAAA
 |nydus.battle.net^$dnsrewrite=lancache.internal
+|nydus.battle.net^$dnstype=AAAA
 
 # From: epicgames.conf
 |cdn.unrealengine.com^$dnsrewrite=lancache.internal
+|cdn.unrealengine.com^$dnstype=AAAA
 |cdn1.epicgames.com^$dnsrewrite=lancache.internal
+|cdn1.epicgames.com^$dnstype=AAAA
 |cdn1.unrealengine.com^$dnsrewrite=lancache.internal
+|cdn1.unrealengine.com^$dnstype=AAAA
 |cdn2.epicgames.com^$dnsrewrite=lancache.internal
+|cdn2.epicgames.com^$dnstype=AAAA
 |cdn2.unrealengine.com^$dnsrewrite=lancache.internal
+|cdn2.unrealengine.com^$dnstype=AAAA
 |cdn3.unrealengine.com^$dnsrewrite=lancache.internal
+|cdn3.unrealengine.com^$dnstype=AAAA
 |cloudflare.epicgamescdn.com^$dnsrewrite=lancache.internal
+|cloudflare.epicgamescdn.com^$dnstype=AAAA
 |download.epicgames.com^$dnsrewrite=lancache.internal
+|download.epicgames.com^$dnstype=AAAA
 |download2.epicgames.com^$dnsrewrite=lancache.internal
+|download2.epicgames.com^$dnstype=AAAA
 |download3.epicgames.com^$dnsrewrite=lancache.internal
+|download3.epicgames.com^$dnstype=AAAA
 |download4.epicgames.com^$dnsrewrite=lancache.internal
+|download4.epicgames.com^$dnstype=AAAA
 |egdownload.fastly-edge.com^$dnsrewrite=lancache.internal
+|egdownload.fastly-edge.com^$dnstype=AAAA
 |epicgames-download1.akamaized.net^$dnsrewrite=lancache.internal
+|epicgames-download1.akamaized.net^$dnstype=AAAA
 |fastly-download.epicgames.com^$dnsrewrite=lancache.internal
+|fastly-download.epicgames.com^$dnstype=AAAA
 
 # From: nintendo.conf
 ||hac.lp1.d4c.nintendo.net^$dnsrewrite=lancache.internal
+||hac.lp1.d4c.nintendo.net^$dnstype=AAAA
 ||hac.lp1.eshop.nintendo.net^$dnsrewrite=lancache.internal
+||hac.lp1.eshop.nintendo.net^$dnstype=AAAA
 ||wup.eshop.nintendo.net^$dnsrewrite=lancache.internal
+||wup.eshop.nintendo.net^$dnstype=AAAA
 ||wup.shop.nintendo.net^$dnsrewrite=lancache.internal
-|ccs.cdn.wup.shop.nintendo.net^$dnsrewrite=lancache.internal
+||wup.shop.nintendo.net^$dnstype=AAAA
 |ccs.cdn.wup.shop.nintendo.net.edgesuite.net^$dnsrewrite=lancache.internal
+|ccs.cdn.wup.shop.nintendo.net.edgesuite.net^$dnstype=AAAA
 |ecs-lp1.hac.shop.nintendo.net^$dnsrewrite=lancache.internal
+|ecs-lp1.hac.shop.nintendo.net^$dnstype=AAAA
 |geisha-wup.cdn.nintendo.net^$dnsrewrite=lancache.internal
+|geisha-wup.cdn.nintendo.net^$dnstype=AAAA
 |geisha-wup.cdn.nintendo.net.edgekey.net^$dnsrewrite=lancache.internal
+|geisha-wup.cdn.nintendo.net.edgekey.net^$dnstype=AAAA
 |idbe-wup.cdn.nintendo.net^$dnsrewrite=lancache.internal
+|idbe-wup.cdn.nintendo.net^$dnstype=AAAA
 |idbe-wup.cdn.nintendo.net.edgekey.net^$dnsrewrite=lancache.internal
+|idbe-wup.cdn.nintendo.net.edgekey.net^$dnstype=AAAA
 |receive-lp1.dg.srv.nintendo.net^$dnsrewrite=lancache.internal
+|receive-lp1.dg.srv.nintendo.net^$dnstype=AAAA
 
 # From: origin.conf
 |cdn-patch.swtor.com^$dnsrewrite=lancache.internal
+|cdn-patch.swtor.com^$dnstype=AAAA
 |lvlt.cdn.ea.com^$dnsrewrite=lancache.internal
+|lvlt.cdn.ea.com^$dnstype=AAAA
 |origin-a.akamaihd.net^$dnsrewrite=lancache.internal
+|origin-a.akamaihd.net^$dnstype=AAAA
 
 # From: riot.conf
 ||dyn.riotcdn.net^$dnsrewrite=lancache.internal
+||dyn.riotcdn.net^$dnstype=AAAA
 |l3cdn.riotgames.com^$dnsrewrite=lancache.internal
+|l3cdn.riotgames.com^$dnstype=AAAA
 |riotgamespatcher-a.akamaihd.net^$dnsrewrite=lancache.internal
+|riotgamespatcher-a.akamaihd.net^$dnstype=AAAA
 |riotgamespatcher-a.akamaihd.net.edgesuite.net^$dnsrewrite=lancache.internal
+|riotgamespatcher-a.akamaihd.net.edgesuite.net^$dnstype=AAAA
 |worldwide.l3cdn.riotgames.com^$dnsrewrite=lancache.internal
+|worldwide.l3cdn.riotgames.com^$dnstype=AAAA
 
 # From: sony.conf
 ||gs2-ww-prod.psn.akadns.net^$dnsrewrite=lancache.internal
+||gs2-ww-prod.psn.akadns.net^$dnstype=AAAA
 ||gs2.sonycoment.loris-e.llnwd.net^$dnsrewrite=lancache.internal
+||gs2.sonycoment.loris-e.llnwd.net^$dnstype=AAAA
 ||gs2.ww.prod.dl.playstation.net^$dnsrewrite=lancache.internal
+||gs2.ww.prod.dl.playstation.net^$dnstype=AAAA
 ||gs2.ww.prod.dl.playstation.net.edgesuite.net^$dnsrewrite=lancache.internal
+||gs2.ww.prod.dl.playstation.net.edgesuite.net^$dnstype=AAAA
 |gs-sec.ww.np.dl.playstation.net^$dnsrewrite=lancache.internal
+|gs-sec.ww.np.dl.playstation.net^$dnstype=AAAA
 |gst.prod.dl.playstation.net^$dnsrewrite=lancache.internal
+|gst.prod.dl.playstation.net^$dnstype=AAAA
 |playstation4.sony.akadns.net^$dnsrewrite=lancache.internal
+|playstation4.sony.akadns.net^$dnstype=AAAA
 |psnobj.prod.dl.playstation.net^$dnsrewrite=lancache.internal
+|psnobj.prod.dl.playstation.net^$dnstype=AAAA
 |sgst.prod.dl.playstation.net^$dnsrewrite=lancache.internal
+|sgst.prod.dl.playstation.net^$dnstype=AAAA
 |theia.dl.playstation.net^$dnsrewrite=lancache.internal
+|theia.dl.playstation.net^$dnstype=AAAA
 |tmdb.np.dl.playstation.net^$dnsrewrite=lancache.internal
+|tmdb.np.dl.playstation.net^$dnstype=AAAA
 |uef.np.dl.playstation.net^$dnsrewrite=lancache.internal
+|uef.np.dl.playstation.net^$dnstype=AAAA
 |vulcan.dl.playstation.net^$dnsrewrite=lancache.internal
+|vulcan.dl.playstation.net^$dnstype=AAAA
 
 # From: steam.conf
 |lancache.steamcontent.com^$dnsrewrite=lancache.internal
+|lancache.steamcontent.com^$dnstype=AAAA
 
 # From: uplay.conf
 ||cdn.ubi.com^$dnsrewrite=lancache.internal
+||cdn.ubi.com^$dnstype=AAAA
 
 # From: windowsupdates.conf
 ||dl.delivery.mp.microsoft.com^$dnsrewrite=lancache.internal
+||dl.delivery.mp.microsoft.com^$dnstype=AAAA
 ||do.dsp.mp.microsoft.com^$dnsrewrite=lancache.internal
+||do.dsp.mp.microsoft.com^$dnstype=AAAA
 ||microsoft.com.edgesuite.net^$dnsrewrite=lancache.internal
+||microsoft.com.edgesuite.net^$dnstype=AAAA
 ||update.microsoft.com^$dnsrewrite=lancache.internal
+||update.microsoft.com^$dnstype=AAAA
 ||windowsupdate.com^$dnsrewrite=lancache.internal
+||windowsupdate.com^$dnstype=AAAA
 |amupdatedl.microsoft.com^$dnsrewrite=lancache.internal
+|amupdatedl.microsoft.com^$dnstype=AAAA
 |amupdatedl2.microsoft.com^$dnsrewrite=lancache.internal
+|amupdatedl2.microsoft.com^$dnstype=AAAA
 |amupdatedl3.microsoft.com^$dnsrewrite=lancache.internal
+|amupdatedl3.microsoft.com^$dnstype=AAAA
 |amupdatedl4.microsoft.com^$dnsrewrite=lancache.internal
+|amupdatedl4.microsoft.com^$dnstype=AAAA
 |amupdatedl5.microsoft.com^$dnsrewrite=lancache.internal
+|amupdatedl5.microsoft.com^$dnstype=AAAA
+|officecdn.microsoft.com^$dnsrewrite=lancache.internal
+|officecdn.microsoft.com^$dnstype=AAAA
+|officecdn.microsoft.com.edgesuite.net^$dnsrewrite=lancache.internal
+|officecdn.microsoft.com.edgesuite.net^$dnstype=AAAA
