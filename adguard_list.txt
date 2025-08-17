@@ -1,5 +1,7 @@
 # Combined lancache config
 
+# From: arenanet.conf
+
 # From: blizzard.conf
 ||cdn.blizzard.com^$dnsrewrite=lancache.internal
 ||cdn.blizzard.com^$dnstype=AAAA
@@ -21,6 +23,14 @@
 |level3.blizzard.com^$dnstype=AAAA
 |nydus.battle.net^$dnsrewrite=lancache.internal
 |nydus.battle.net^$dnstype=AAAA
+
+# From: bsg.conf
+
+# From: cityofheroes.conf
+
+# From: cod.conf
+
+# From: daybreak.conf
 
 # From: epicgames.conf
 |cdn.unrealengine.com^$dnsrewrite=lancache.internal
@@ -51,6 +61,12 @@
 |epicgames-download1.akamaized.net^$dnstype=AAAA
 |fastly-download.epicgames.com^$dnsrewrite=lancache.internal
 |fastly-download.epicgames.com^$dnstype=AAAA
+
+# From: frontier.conf
+
+# From: neverwinter.conf
+
+# From: nexusmods.conf
 
 # From: nintendo.conf
 ||hac.lp1.d4c.nintendo.net^$dnsrewrite=lancache.internal
@@ -84,6 +100,10 @@
 |origin-a.akamaihd.net^$dnsrewrite=lancache.internal
 |origin-a.akamaihd.net^$dnstype=AAAA
 
+# From: pathofexile.conf
+
+# From: renegadex.conf
+
 # From: riot.conf
 ||dyn.riotcdn.net^$dnsrewrite=lancache.internal
 ||dyn.riotcdn.net^$dnstype=AAAA
@@ -95,6 +115,8 @@
 |riotgamespatcher-a.akamaihd.net.edgesuite.net^$dnstype=AAAA
 |worldwide.l3cdn.riotgames.com^$dnsrewrite=lancache.internal
 |worldwide.l3cdn.riotgames.com^$dnstype=AAAA
+
+# From: rockstar.conf
 
 # From: sony.conf
 ||gs2-ww-prod.psn.akadns.net^$dnsrewrite=lancache.internal
@@ -124,13 +146,23 @@
 |vulcan.dl.playstation.net^$dnsrewrite=lancache.internal
 |vulcan.dl.playstation.net^$dnstype=AAAA
 
+# From: square.conf
+
 # From: steam.conf
 |lancache.steamcontent.com^$dnsrewrite=lancache.internal
 |lancache.steamcontent.com^$dnstype=AAAA
 
+# From: teso.conf
+
+# From: test.conf
+
 # From: uplay.conf
 ||cdn.ubi.com^$dnsrewrite=lancache.internal
 ||cdn.ubi.com^$dnstype=AAAA
+
+# From: warframe.conf
+
+# From: wargaming.net.conf
 
 # From: windowsupdates.conf
 ||dl.delivery.mp.microsoft.com^$dnsrewrite=lancache.internal
@@ -157,3 +189,5 @@
 |officecdn.microsoft.com^$dnstype=AAAA
 |officecdn.microsoft.com.edgesuite.net^$dnsrewrite=lancache.internal
 |officecdn.microsoft.com.edgesuite.net^$dnstype=AAAA
+
+# From: xboxlive.conf
